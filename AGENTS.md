@@ -1,4 +1,4 @@
-# CLAUDE.md
+# Agents.md
 
 This file provides guidance when working with code in this repository.
 
@@ -13,8 +13,11 @@ This is an Odoo 18 development environment using Docker containers. The project 
 
 ### Starting the Development Environment
 
+**Important**: Always use `sudo docker compose` (with space between "docker" and "compose", not "docker-compose") when running Docker Compose commands in this project.
+
 ```bash
-# install the module to test it
+# Install and test a module (replace 'module_name' with actual module name)
+# Always use 'sudo docker compose' (with space, not docker-compose)
 sudo docker compose run --rm odoo odoo -i module_name -d postgres --stop-after-init
 ```
 
