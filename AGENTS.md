@@ -15,7 +15,7 @@ This is an Odoo 18 development environment using Docker containers. The project 
 
 ```bash
 # install the module to test it
-sudo docker-compose run --rm odoo odoo -i module_name -d postgres --stop-after-init
+sudo docker compose run --rm odoo odoo -i module_name -d postgres --stop-after-init
 ```
 
 ## Architecture
